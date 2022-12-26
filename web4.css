@@ -1,0 +1,285 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #4B4848;
+}
+
+.header {
+    background-color: #928D8C;
+    height: 38px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+    color: whitesmoke;
+}
+
+.header-left {
+    display: flex;
+    padding-left: 45px;
+}
+
+.mail {
+    padding-left: 20px;
+}
+
+.header-right {
+    display: flex;
+    padding-right: 45px;
+    font-size: larger;
+}
+.twitter {
+    padding-right: 20px;
+}
+.facebook {
+    padding-right: 20px;
+}
+.globe {
+    padding-right: 20px;
+}
+.apple {
+    padding-right: 20px;
+}
+.amazon {
+    padding-right: 20px;
+}
+.wifi {
+    padding-right: 20px;
+}
+
+/*Menu*/
+
+.menu {
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    color: whitesmoke;
+    padding-top: 40px;
+}
+.menu-left {
+    padding-left: 45px;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.menu-right {
+    display: flex;
+    padding-right: 45px;
+    font-size: large;
+}
+.menu-right > div {
+    padding-right: 40px;
+}
+.hero-page {
+    background-color: #EF380C;
+    height: 480px;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+.hero-page-center {
+    display: flex;
+    justify-content: space-between;
+    width: 880px;
+    margin: auto;
+}
+.leftbox {
+    width: 440px;
+    color: white;
+    padding: 60px;
+}
+button {
+    background-color: white;
+    height: 48px;
+    width: 180px;
+}
+
+.bttns {
+    display: flex;
+}
+.botton1 {
+}
+.botton2 {
+    padding-left: 15px;
+}
+
+.rightbox img {
+    height: 480px;
+    width: 300px;
+    object-fit: cover;
+
+}
+/*circle*/
+.settings {
+    display: flex;
+    height: 350px;
+    width: 89%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+
+}
+.square {
+    margin: auto;
+    color: antiquewhite;
+}
+.circle {
+    background-color: rgb(100, 96, 96);
+    height: 130px;
+    width: 130px;
+    border-radius: 100%;
+    margin: auto;
+}
+.circe-foot {
+    margin: auto;
+    padding-left: 100px;
+}
+.icon1 {
+    font-size: 300%;
+    padding: 40px;
+   
+}
+.icon-grid-pic img {
+    height: 70px;
+    width: 90px;
+    padding: 24px;
+}
+/*grids section*/
+
+.grids-part {
+    height: 1450px;
+    background-color: #6B6868;
+}
+.recent-work {
+    height: 30px;
+    width: 85%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+   padding-top: 40px;
+    color: antiquewhite;
+}
+.rw-text {
+    font-size: larger;
+    font-weight: bold;
+}
+.rw-icon {
+    color: antiquewhite;
+    font-size: x-large;
+}
+.tables {
+    height: 508px;
+    width: 89%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    padding-top: 20px;
+   
+}
+.tables img {
+    width: 100%;
+}
+
+.hline {
+    padding: 38px;
+    width: 89%;
+    margin: auto;
+}
+
+/*latest news*/
+
+.latestnews {
+    height: 40px;
+    width: 89%;
+    margin: auto;
+    color: white;
+}
+.tables2 {
+    width: 89%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    justify-items: center;
+    justify-content: center;
+}
+.tables2 > img {
+    width: 100%;
+}
+.captions {
+    width: 89%;
+    margin: auto;
+    justify-items: center;
+    justify-content: center;
+    display: flex;
+    color: antiquewhite;
+}
+.captions2 {
+    padding: 60px;
+    width: 89%;
+    margin: auto;
+    justify-items: center;
+    justify-content: space-between;
+    display: flex;
+    color: antiquewhite;
+}
+
+/*footers*/
+
+.footers {
+    background-color: #333131;
+    height: 38px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+    color: whitesmoke;
+}
+.leftfooters {
+    padding-left: 45px;
+    padding-bottom: 30px;
+}
+.rightfooters {
+    display: flex;
+    padding-right: 45px;
+    font-size: larger;
+}
+.twitter {
+    padding-right: 20px;
+}
+.facebook {
+    padding-right: 20px;
+}
+.globe {
+    padding-right: 20px;
+}
+.apple {
+    padding-right: 20px;
+}
+.wifi {
+    padding-right: 20px;
+}
+
+
+.feat {
+    width: 89%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.feat-text {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.clients {
+    padding: 40px;
+    height: 123px;
+    width: 89%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    object-fit: contain;
+    
+}

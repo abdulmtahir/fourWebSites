@@ -1,0 +1,239 @@
+body {
+    margin: 0;
+    padding: 0;
+    margin: 0;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    color: antiquewhite;
+    height: 70px;
+    width: auto;
+    background-color: rgb(43, 40, 40);
+}
+.left-header {
+    padding-top: 15px;
+    padding-left: 5%;
+}
+.right-header {
+    padding-top: 30px;
+    padding-right: 5%;
+}
+.sec2 {
+    height: 190px;
+    width: 100%;
+    text-align: center;
+    background-color: #910909ee;
+    color: white;
+}
+.top1 {
+    padding-top: 30px;
+    font-size: 250%;
+    font-weight: bold;
+}
+.top2 {
+    font-size: large;
+}
+#top3 {
+    font-size: larger;
+    padding-top: 10px;
+    font-weight: 500;
+}
+/*hero page*/
+.hero-page {
+    background-color: black;
+    height: 430px;
+    width: auto;
+    color: white;
+}
+.interior {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.left-items {
+    padding-top: 35px;
+}
+.btop1 {
+    font-size: 27px;
+    font-weight: 700;
+}
+.btop2 {
+    font-size: 20px;
+    font-weight: 300;
+    padding-top: 3px;
+}
+.btop3 {
+    font-size-adjust: inherit;
+}
+.icon-text {
+    display: flex;
+    padding-top: 5px;
+}
+.star-icon {
+    color: rgb(255, 179, 0);
+    font-size: small;
+    padding-top: 2px;
+}
+.star-text {
+    padding-left: 8px;
+    font-size: small;
+}
+.bttns1 {
+    padding-top: 25px;
+    display: flex;
+}
+button {
+    height: 50px;
+    width: 177px;
+    font-size: larger;
+    font-weight: 700;
+    border-radius: 14px;
+}
+.bttn1-2 {
+    padding-left: 125px;
+}
+.bttn1-1 {
+    width: 70px;
+}
+#b1 {
+    background-color: rgb(53, 236, 236);
+}
+#b2 {
+    background-color: yellowgreen;
+}
+
+.right-col {
+    padding-top: 15px;
+}
+.right-pic {
+    background-color: antiquewhite;
+    width: 450px;
+    height: 355px;
+    float: right;
+    border-radius: 7px;
+}
+.right-pic img {
+    height: 95%;
+    width: 95%;
+    margin: auto;
+   padding-top: 10px;
+   padding-right: 11px;
+   padding-bottom: 10px;
+   float: right;
+}
+
+/*white page*/
+.whites {
+    background-color: rgb(228, 224, 219);
+    height: 345px;
+    width: auto;
+    padding-top: 20px;
+}
+.white-cont {
+    width: 90%;
+    height: 88%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-top: 35px;
+}
+.wh-left {
+    background-color: rgb(205, 201, 198);
+    height: 80%;
+    width: 45%;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+.group1 {
+    padding-top: 5px;
+}
+.wh-icon-heading {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.wh-icon {
+    color: rgb(66, 186, 186);
+    font-size: xx-large;
+}
+.wh-heading {
+    padding-top: 7px;
+    font-size: larger;
+    font-weight: 300;
+}
+.wh-text {
+    padding-top: 5px;
+}
+/*menu*/
+.menu {
+    height: 70px;
+    width: auto;
+    background-color: rgb(29, 27, 27);
+    
+}
+.lists {
+    width: 40%;
+    height: auto;
+    padding-left: 6%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    font-size: larger;
+    color: white;
+}
+.below-menu {
+    width: auto;
+    height: 190px;
+    background-color:  rgb(43, 40, 40);
+    padding-top: 35px;
+}
+.below-menu-cont {
+    height: 80%;
+    width: 90%;
+    margin: auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.pic4 {
+    height: auto;
+    background-color: white;
+    padding-left: 10px;
+    padding-top: 6px;
+}
+.pic4 img {
+    width: 95%;
+    height: 96%;
+    margin: auto;
+}
+/*footers*/
+.footer {
+    height: 80px;
+    width: auto;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.footer-cont {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.left-footer {
+    padding-top: 7px;
+}
+.right-footer {
+    width: 15%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: space-between;
+    font-size: xx-large;
+    color: rgb(79, 79, 192);
+}

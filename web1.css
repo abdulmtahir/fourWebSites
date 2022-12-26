@@ -1,0 +1,226 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.hero-page {
+    background-image: url(images1/hero1.jpg);
+    background-size: cover;
+    height: 650px;
+    width: auto;
+    background-repeat: no-repeat;
+}
+.hero-text  {
+    text-align: center;
+    color: white;
+    padding-top: 300px;
+}
+.t1 {
+    font-size: 470%;
+}
+.t2 {
+    font-size: 125%;
+    padding-top: 10px;
+}
+/*readmore*/
+.readmore {
+    background-color: rgba(245, 252, 252, 0.767);
+    height: 370px;
+    width: auto;
+}
+.rm-cont {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#t3 {
+    font-size: 250%;
+    padding-top: 10px;
+}
+#t4 {
+    font-size: larger;
+}
+.bttn {
+    padding-top: 15px;
+}
+#ash-btn {
+    color: rgb(138, 132, 124);
+    border: solid;
+}
+button {
+    width: 155px;
+    height: 46px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    border: 1% solid;
+}
+.read-more-images img {
+    height: 310px;
+    width: 550px;
+    margin: auto;
+    padding-right: 40pxpx;
+    padding-top: 30px;
+}
+/*features*/
+.features {
+    height: 660px;
+    width: auto;
+    background-color: #284562
+}
+#f1 {
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+}
+.below-cent {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.icon-text {
+    display: flex;
+    justify-content: space-between;
+}
+.icon1 {
+    font-size: 40px;
+    color: rgb(94, 145, 165);
+    padding-top: 10px;
+}
+.cent-feat {
+    margin: auto;
+}
+.cent-feat img {
+    height: 450px;
+    width: 390px;
+    padding-top: 23px;
+    object-fit: cover;
+}
+.it1 {
+    color: white;
+    padding-left: 15px;
+}
+.it1 h3 {
+    font-size: larger;
+}
+/*baller*/
+.readmore2 {
+    background-image: url(images1/baller.png);
+    background-repeat: no-repeat;
+    width: auto;
+    height: 500px;
+    background-size: cover;
+}
+.left-text {
+    color: white;
+    padding-left: 7.5%;
+    padding-top: 4%;
+}
+#rd2 {
+    font-size: 230%;
+}
+#rd3 {
+    font-size: larger;
+}
+.rd-bttn {
+    padding-top: 10px;
+}
+
+/*wrist holder*/
+.watch {
+    background-image: url("images1/wrist\ holder.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+.left-watch {
+    color: white;
+    padding-right: 7.5%;
+    padding-top: 12%;
+    text-align: right;    
+}
+/*iwatches*/
+.iwatches {
+    background-color: azure;
+    width: 100%;
+    height: 700px;
+}
+.top-cent1 {
+    text-align: center;
+    padding-top: 30px;
+    color:black;
+}
+.below-cent2 {
+    width: 85%;
+    height: 500px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 10px;
+}
+.left-image {
+    background-color: rgb(47, 131, 47);
+}
+.left-image img {
+    width: 450px;
+    height: 480px;
+}
+.iw-icon-caption {
+    display: flex;
+}
+.iw-caption {
+    padding-left: 25px;
+}
+.iw-icon {
+    font-size: 30px;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+#iw1 {
+    font-size: 130%;
+}
+#iw2 {
+    font-size: larger;
+}
+/*see calls*/
+.see-calls {
+    background-image: url("images1/armless.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+}
+.left-text2 {
+    color: white;
+    padding-left: 7.5%;
+    padding-top: 12%;
+}
+/*riders*/
+.workout {
+    background-image: url("images1/riders.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+}
+.right-text {
+    color: white;
+    padding-right: 7.5%;
+    padding-top: 12%;
+    text-align: right;  
+}
+#riders-text {
+    font-size: larger;
+}
+.footers {
+    background-color: #424446;
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    color: bisque;
+    padding-top: 40px;
+}
